@@ -11,8 +11,8 @@ function setup(){
  engine =Engine.create();
  world =engine.world();
  b1=new Block(200,400,30,30)
-
-}Engine.run(engine)
+Engine.run(engine)
+}
 
 function draw(){
  Engine.update(engine);
