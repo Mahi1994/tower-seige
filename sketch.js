@@ -9,7 +9,7 @@ function preload(){
 
 function setup(){
  engine =Engine.create();
- world =engine.world();
+ world =engine.world;
  b1=new Block(200,400,30,30)
 Engine.run(engine)
 }
